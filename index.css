@@ -1,0 +1,457 @@
+@font-face {
+    font-family: Kocmoc;
+    src: url(Fonts/KosmoSans-Regular.ttf);
+}
+@font-face {
+    font-family: Comf;
+    src: url(Fonts/Comfortaa-Bold.ttf);
+}
+@font-face {
+    font-family: Sans;
+    src: url(Fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: Caveat;
+    src: url(Fonts/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Vavil;
+    src: url(Fonts/HachiMaruPop-Regular.ttf);
+}
+@font-face {
+    font-family: Ind;
+    src: url(Fonts/Papyrus-02.otf);
+}
+@font-face {
+    font-family: Japan;
+    src: url(Fonts/Japan.TTF);
+}
+header{
+    background: linear-gradient(rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2)), url(IMG/2150248009.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 -150px;
+    padding: 1px;
+    background-attachment: fixed;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-weight: 100;
+    font-family: Kocmoc;
+    font-size: 3vw;
+    background: linear-gradient(white 20%, purple,rgba(77, 77, 255, 0.936), #b822c1);
+    background-clip: text;
+    color: transparent;
+    padding: 8%;
+    text-shadow: 5px 5px 0px black;
+}
+#Ra{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: auto;
+    flex-direction: row-reverse;
+    background-image: url(IMG/1591.jpg);
+    background-position: 0 -2550px;
+    background-attachment: fixed;
+}
+#legend{
+    width: 40%;
+}
+#slider{
+    width: 600px;
+    overflow: hidden;
+}
+#cont{
+    display: flex;
+    animation: slide infinite 8s alternate ease-in-out;
+    justify-content: flex-start;
+}
+#cont img{
+    width: 600px;
+    height: 80vh;
+    object-fit: cover;
+}
+#img1{
+    object-position: -350px;
+}
+#legend h2{
+    font-family: Comf;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+.Pa{
+    line-height: 2;
+    font-size: 100px;
+}
+#legend h3{
+    font-family: Comf;
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+@keyframes slide{
+    from{transform: translateX(0);}
+    50%{transform: translateX(-600px);}
+    to{transform: translateX(-1200px);}
+}
+#PanGu{
+    background: url(IMG/chinese-new-year-pink-pastel-sky-background-with-lantern-flower-frame_776894-34052.jpg);
+    padding: 50px;
+    background-size: cover;
+    background-position: center -350px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#mif h2{
+    font-family: Sans;
+    text-align: justify;
+    color: red;
+    margin-left: 650px;
+    margin-top: 200px;
+    animation: textcolor 3s infinite alternate linear;
+    font-size: 30px;
+}
+#mif h3{
+    font-family: Sans;
+    text-align: justify;
+    color: red;
+    width: 1200px;
+    margin-left: 650px;
+    animation: textcolor 3s infinite alternate linear;
+    font-size: 30px;
+}
+@keyframes textcolor{
+    from{color: orange;}
+    to{color: blue;}
+}
+#Svarog{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)); */
+    padding: 1px;
+    height: 100vh;
+    width: 100%;
+    background-size: 100vw;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#Svarog h2{
+    font-family: Lobster;
+    color: #F0EEE9;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    margin-left: 500px;
+    margin-top: 200px;
+    width: 1500px;
+    position: absolute;
+    top: 0%;
+}
+#Svarog h3{
+    font-family: Lobster;
+    color: #F0EEE9;
+    font-size: 38px;
+    font-weight: 100;
+    text-align: justify;
+    text-shadow: 1px 1px 5px black;
+    margin-left: 500px;
+    width: 1500px;
+    position: absolute;
+    top: 20%;
+}
+#Flower{
+    position: absolute;
+    width: 120vw !important;
+    z-index: -1;
+    left: -300px;
+    top: -300px;
+}
+#h{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#Greec{
+    background: url(IMG/vector-background-grunge-style-ancient-ethnic-pattern_149326-3370.jpg);
+    background-size: cover;
+    padding: 1px;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#Greec #text{
+    width: 40%;
+    font-family: Caveat;
+    font-size: 28px;
+}
+#Greec figure{
+    margin: 0;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+figure img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+@keyframes imgmove{
+    0%{transform: translateX(0%);}
+    25%{transform: translateX(100%);}
+    50%{transform: translateY(50vh) translateX(100%);}
+    75%{transform: translateX(-0%) translateY(50vh);}
+    100%{transform: translateY(0vh);}
+}
+@keyframes imgmove2{
+    0%{transform: translateX(0%);}
+    25%{transform: translateY(50vh) translateX(0%);}
+    50%{transform: translateX(-100%) translateY(50vh);}
+    75%{transform: translateX(-100%) translateY(0vh);}
+    100%{transform: translateY(0vh);}
+}
+@keyframes imgmove3{
+    0%{transform: translateX(0%);}
+    25%{transform: translateY(-50vh) translateX(0%);}
+    50%{transform: translateX(100%) translateY(-50vh);}
+    75%{transform: translateX(100%) translateY(0vh);}
+    100%{transform: translateY(0vh);}
+}
+@keyframes imgmove4{
+    0%{transform: translateX(0%);}
+    25%{transform: translateX(-100%) translateY(0vh);}
+    50%{transform: translateY(-50vh) translateX(-100%);}
+    75%{transform: translateX(0%) translateY(-50vh)}
+    100%{transform: translateY(0vh);}
+}
+figure img:nth-child(1){
+    animation: imgmove 20s infinite;
+}
+figure img:nth-child(2){
+    object-position: 0 0px;
+    animation: imgmove2 20s infinite;
+}
+figure img:nth-child(3){
+    object-position: 0 0px;
+    animation: imgmove3 20s infinite;
+}
+figure img:nth-child(4){
+    animation: imgmove4 20s infinite;
+}
+#Vavilon{
+    padding: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)) ,url(IMG/bozhestvennoe-suschestvo-srazhayuscheesya-s-monstrom.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+#Vavilon h2{
+    font-size: 40px;
+    font-family: Vavil;
+    /* color: white; */
+}
+#Vavilon h3{
+    font-size: 35px;
+    font-family: Vavil;
+    /* color: white; */
+}
+#silka1{
+    color: black;
+    font-size: 35px;
+    font-family: Vavil;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+#a1{
+    display: inline-block;
+    transform: rotate(-45deg);
+    transition: all 1s;
+}
+#a2{
+    display: inline-block;
+    transform: rotate(45deg);
+    transition: all 1s;
+}
+#silka1:hover
+#a1{
+    transform: rotate(0deg);
+}
+#silka1:hover
+#a2{
+    transform: rotate(0deg);
+}
+#India{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url(IMG/freepik__-__34495.png);
+    padding: 1px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+#India h2{
+    padding: 50px;
+    padding-top: 0;
+    color: white;
+    font-size: 40px;
+    font-family: Ind;
+    display: block;
+    margin-top: 550px;
+    font-weight: 900;
+    text-align: center;
+}
+#India h3{
+    padding: 0px;
+    color: white;
+    font-size: 35px;
+    font-family: Ind;
+    display: block;
+    margin-top: 0px;
+    font-weight: 900;
+}
+#sound{
+    bottom: 30px;
+    right: 1200px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 104;
+}
+#sound1{
+    bottom: 30px;
+    right: 1200px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: gif 0.7s infinite;
+}
+@keyframes gif{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+#Japan{
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(IMG/japan.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 1px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#Japan h2{
+    font-size: 35px;
+    font-family: japan;
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+    margin-left: 650px;
+}
+#Japan h3{
+    font-size: 30px;
+    font-family: japan;
+    width: 53%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+#up{
+    /* width: 100px;
+    height: 100px; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Panel{
+    padding: 20px;
+    background: linear-gradient(rgba(128, 0, 128, 0.5), rgba(255, 192, 203, 0.5));
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+#Panel a{
+    color: #cba2ce;
+    font-size: 25px;
+    font-family: Kocmoc;
+    background-clip: text;
+    text-decoration: none;
+}
+#test{
+    background: url(IMG/vector-background-grunge-style-ancient-ethnic-pattern_149326-3370.jpg);
+    padding: 1px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-position: center center;
+    text-align: center;
+}
+#test button{
+    width: 400px;
+    height: 300px;
+    font-size: 70px;
+    font-family: Comf;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px black;
+    transition: 0.1s all;
+}
+#test button:hover{
+    box-shadow: none;
+    transform: translateY(2px);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background-color: bisque;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    -webkit-user-drag: none;
+}
+footer p{
+    font-size: 55px;
+    margin-bottom: 0 ;
+    margin-top: 20px;
+}
