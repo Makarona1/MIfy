@@ -1,7 +1,7 @@
 @media(max-width: 1000px){
     header{
     height: 100vh;
-    background-position: -300px 0;
+    background-position: -600px 0;
     }
     h1{
         text-shadow: 4px 4px 0px black;
@@ -11,15 +11,22 @@
     #Ra{
         padding: 50px;
         flex-direction: column-reverse;
+        background-position: 2600px -2300px;
+    }
+    #slider{
+    width: 100%;
+    overflow: hidden;
+    }
+    @keyframes slide{
+    from{transform: translateX(-300px);}
+    50%{transform: translateX(-750px);}
+    to{transform: translateX(-1300px);}
     }
     #legend{
         width: 100%;
     }
     #img1{
         object-position: -250px;
-    }
-    #Ra{
-        background-position: 2600px -2300px;
     }
     #PanGu{
         padding: 15px;
@@ -87,7 +94,7 @@
     #Svarog h2{
     font-family: Lobster;
     color: #F0EEE9;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 100;
     text-align: center;
     text-shadow: 1px 1px 5px black;
@@ -100,11 +107,11 @@
     #Svarog h3{
     font-family: Lobster;
     color: #F0EEE9;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 100;
     text-align: justify;
     text-shadow: 1px 1px 5px black;
-    margin-left: 50px;
+    margin-left: 10px;
     width: 90%;
     position: absolute;
     top: 60px;
@@ -149,8 +156,8 @@
         animation: none;
     }
     #Vavilon{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: fit-content;
     }
     #Vavilon h2{
     font-size: 20px;
@@ -165,12 +172,11 @@
     #silka1{
         font-size: 20px;
         padding: 0;
-        margin-left: 30%;
         margin-top: 60px;
     }
     #India{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: fit-content;
         background-position-x: -770px;
     }
     #India h2{
@@ -186,8 +192,8 @@
     }
     #Japan{
         background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(IMG/japan.jpg);
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: fit-content;
         background-size: cover;
         box-sizing: border-box;
         background-repeat: no-repeat;
@@ -220,5 +226,24 @@
     }
     #Panel a{
     color: #6b3d9b;
+    }
+    #test button{
+    width: 400px;
+    height: 300px;
+    font-size: 70px;
+    font-family: Comf;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px black;
+    transition: 0.1s all;
+    }
+    footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 75px 50px;
+    background-color: bisque;
+    width: 100%;
+    box-sizing: border-box;
     }
 }
